@@ -15,7 +15,7 @@ jobs:
           usedocker: true
           docker_heroku_process_type: worker
           stack: "container"
-          region: "eu"
+          region: "us"
         env:
           HD_HEROKU_APP_NAME: ${{secrets.HEROKU_APP_NAME}}
           HD_HEROKU_API_KEY: ${{secrets.HEROKU_API_KEY}}
